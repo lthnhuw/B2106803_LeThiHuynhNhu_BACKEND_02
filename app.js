@@ -22,8 +22,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.json({message: "Welcome to contact book application."});
 });
-app.listen(3000, function(){
-	console.log('Running!');
-})
+// app.listen(3000, function(){
+// 	console.log('Running!');
+// });
 module.exports = app;
 
